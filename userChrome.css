@@ -1,0 +1,192 @@
+:root {
+        --caption-min-color: 36, 209, 49;
+	--caption-max-color: 252, 185, 15;
+	--caption-close-color: 250, 55, 55;
+	--dark-color: 70, 82, 93;
+	
+}
+
+
+
+.titlebar-buttonbox {
+    position: relative;
+    margin-right: -20px;
+
+}
+
+.titlebar-button {
+	transition: all 0.3s ease !important;
+	padding-right:  8px !important;
+	padding-left: 8px !important;
+  	background: rgba(var(--accent-color), 1) !important;
+}
+
+.titlebar-button.titlebar-close {
+	padding-right: 35px !important;
+}
+
+.titlebar-button > .toolbarbutton-icon {
+	transition: all 0.3s ease !important;
+	list-style-image: none;
+	border-radius: 20px;
+	background: rgba(var(--main-bgcolor), 1);
+}
+
+.titlebar-button:hover > .toolbarbutton-icon {
+	background: rgba(var(--dark-color), 1); !important;
+}
+
+.titlebar-button.titlebar-min > .toolbarbutton-icon {
+	background: rgba(var(--caption-min-color), 1); !important;
+}
+
+.titlebar-button.titlebar-max > .toolbarbutton-icon,
+.titlebar-button.titlebar-restore > .toolbarbutton-icon {
+	background: rgba(var(--caption-max-color), 1); !important;
+}
+
+.titlebar-button.titlebar-close > .toolbarbutton-icon {
+    background: rgba(var(--caption-close-color), 1); !important;
+}
+
+.titlebar-button.titlebar-min:hover > .toolbarbutton-icon,
+.titlebar-button.titlebar-max:hover > .toolbarbutton-icon,
+.titlebar-button.titlebar-restore:hover > .toolbarbutton-icon, 
+.titlebar-button.titlebar-close:hover > .toolbarbutton-icon {
+	background: rgba(var(--dark-color), 1); !important;
+}
+
+// color customization
+
+#back-button {
+    fill: #00E676 !important;
+}
+
+#forward-button {
+    fill: #00E676 !important;
+}
+
+#developer-button {
+    fill: #00b3f5 !important;
+}
+
+#downloads-button {
+    fill: #80eaff !important;
+}
+
+#stop-button {
+	fill: #F06 !important;
+}
+
+#reload-button {
+	fill: #00B0FF !important;
+}
+
+#home-button {
+    fill: #E6822F !important;
+}
+
+#urlbar-go-button, #urlbar-input-container:hover #urlbar-go-button {
+    fill: #30e60b !important;
+}
+
+#pageActionButton, #urlbar-input-container:hover #pageActionButton {
+    fill: #FFCA28 !important;
+}
+
+#nav-bar-overflow-button {
+    fill: #00E676 !important;
+}
+
+panelview image {
+    fill: #00cc99 !important;
+
+}
+
+
+#characterencoding-button {
+    fill: #cc9eff !important;
+}
+
+#sidebar-button {
+    fill: #2bc4a2 !important;
+}
+
+#add-ons-button {
+    fill: limegreen !important;
+}
+
+#email-link-button {
+    fill: #ffd567 !important;
+}
+
+#fxa-toolbar-menu-button {
+    fill: #00cc99 !important;
+}
+
+#history-panelmenu {
+    fill: #0060df !important;
+}
+
+#library-button {
+    fill: #582acb !important;
+}
+
+#new-window-button {
+    fill: #00b3f5 !important;
+}
+
+#open-file-button {
+    fill: #c588ff !important;
+}
+
+#panic-button {
+    fill: red !important;
+}
+
+#print-button {
+    fill: #00b3f5 !important;
+}
+
+#privatebrowsing-button {
+    fill: #D500F9 !important;
+}
+
+#profiler-button {
+    fill: #fe4aa3 !important;
+}
+
+#save-page-button {
+    fill: #3fe1b0 !important;
+}
+
+#sync-button {
+    fill: #ffd567 !important;
+}
+
+
+#bookmarks-menu-button {
+    /*list-style-image: url("chrome://browser/skin/places/bookmarksToolbar.svg") !important;*/
+    fill: #ffd567 !important;
+}
+
+.bookmark-item {
+    fill: #40C4FF !important;
+}
+
+.tabbrowser-tab:not([selected]):not([pinned]) .tab-close-button {
+display: none !important;
+}
+
+.tabbrowser-tab:not([selected]):not([pinned]):hover .tab-close-button {
+display: -moz-box !important;
+}
+
+.tab-close-button {
+    transition: fill-opacity var(--animation-speed) !important;fill: #F06 !important;
+}
+
+
+#PanelUI-menu-button {
+    fill: #FF5722 !important;
+}
