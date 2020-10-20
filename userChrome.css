@@ -1,5 +1,5 @@
 :root {
-        --caption-min-color: 36, 209, 49;
+    --caption-min-color: 36, 209, 49;
 	--caption-max-color: 252, 185, 15;
 	--caption-close-color: 250, 55, 55;
 	--dark-color: 70, 82, 93;
@@ -134,6 +134,10 @@ panelview image {
 
 #new-window-button {
     fill: #00b3f5 !important;
+}
+
+#tabs-newtab-button {
+   fill: #00E676 !important;
 }
 
 #open-file-button {
