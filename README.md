@@ -1,2 +1,2 @@
-# userChrome
-userChrome customazation
+# userChrome.css
+User chrome for firefox 
