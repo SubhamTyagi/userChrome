@@ -56,14 +56,24 @@
 	background: rgba(var(--dark-color), 1); !important;
 }
 
-// color customization
 
 #back-button {
     fill: #00E676 !important;
 }
 
+
 #forward-button {
     fill: #00E676 !important;
+}
+
+
+#identity-box {
+    fill: #00ff00 !important;
+}
+
+
+#star-button {
+    fill: #f44336 !important;
 }
 
 #developer-button {
@@ -74,6 +84,7 @@
     fill: #80eaff !important;
 }
 
+
 #stop-button {
 	fill: #F06 !important;
 }
@@ -81,6 +92,8 @@
 #reload-button {
 	fill: #00B0FF !important;
 }
+
+
 
 #home-button {
     fill: #E6822F !important;
